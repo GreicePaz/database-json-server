@@ -1,16 +1,87 @@
 {
-  "posts":[
+  "mediaMonths":
+  {
+    "2020" : 
+    [
+      { "month": 1, "media": 3 }, { "month": 2, "media": 5 }
+    ]
+  },
+  "indicators_years" : 
+  {
+    "2020":
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "indicators": 
+      [
+        {"indicator": "Aderência Greenmile", "type": "integer", "min": 5, "max": 30},
+        {"indicator": "Controle de Bicada", "type": "integer", "min": 10, "max": 40},
+        {"indicator": "Cumprimento de Janela", "type": "time", "min": 30, "max": 120},
+        {"indicator": "Devolução", "type": "integer", "min": 10, "max": 50},
+        {"indicator": "Vales", "type": "decimal", "min": 80, "max": 300}
+      ]
     }
-  ],
-  "comments" : [
+  },
+  "persons":
+  {
+    "2020":
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "01":
+      [
+        {
+          "id": "PKM0001",
+          "name": "Charmander",
+          "role": "Fire Pokemon",
+          "manager": "Ash Catchum",
+          "locale": "Pallet City",
+          "Aderência Greenmile": 5,
+          "Controle de Bicada": 5,
+          "Cumprimento de Janela": 5,
+          "Devolução": 5,
+          "Vales": 5,
+          "media": 5
+        },
+        {
+          "id": "PKM0002",
+          "name": "Charmander",
+          "role": "Fire Pokemon",
+          "manager": "Ash Catchum",
+          "locale": "Pallet City",
+          "Aderência Greenmile": 5,
+          "Controle de Bicada": 5,
+          "Cumprimento de Janela": 5,
+          "Devolução": 5,
+          "Vales": 5,
+          "media": 5
+        }
+      ],
+      "02":
+      [
+        {
+          "id": "PKM0001",
+          "name": "Charmander",
+          "role": "Fire Pokemon",
+          "manager": "Ash Catchum",
+          "locale": "Pallet City",
+          "Aderência Greenmile": 5,
+          "Controle de Bicada": 5,
+          "Cumprimento de Janela": 5,
+          "Devolução": 5,
+          "Vales": 5,
+          "media": 5
+        },
+        {
+          "id": "PKM0002",
+          "name": "Charmander",
+          "role": "Fire Pokemon",
+          "manager": "Ash Catchum",
+          "locale": "Pallet City",
+          "Aderência Greenmile": 5,
+          "Controle de Bicada": 5,
+          "Cumprimento de Janela": 5,
+          "Devolução": 5,
+          "Vales": 5,
+          "media": 5
+        }
+      ]
     }
-  ]
+  }
 }
